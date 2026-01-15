@@ -1,4 +1,3 @@
-CREATE OR REPLACE TABLE customer (
-    cust_id NUMBER,
-    cust_name VARCHAR(100)
-);
+INSERT INTO customer (cust_id, cust_name)
+VALUES (1, 'John Doe');
+
