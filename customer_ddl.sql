@@ -1,1 +1,4 @@
-create or replace table customer (cust_id, cust_name varchar2(100));
+CREATE OR REPLACE TABLE customer (
+    cust_id NUMBER,
+    cust_name VARCHAR(100)
+);
